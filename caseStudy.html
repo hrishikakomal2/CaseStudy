@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logos with Two Columns</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Add Slick Slider CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 10px;
+        }
+
+        .slider-container {
+            max-width: 10000px;
+            margin: 0 auto;
+        }
+
+        .section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            background-color: #F3F9FF;
+            border: 1px solid #09427D;
+            margin: 0 20px;
+            border-radius: 20px;
+        }
+
+        .logo {
+            padding: 10px;
+            background-color: #F3F9FF;
+        }
+
+        .logo img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .columns {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            font-size: 10px;
+        }
+
+        .column {
+            flex: 1;
+            padding: 10px 30px 0px 40px;
+            background-color: #F3F9FF;
+            border-top: 1px solid #09427D;
+            border-bottom: 1px solid #09427D;
+            border-right: 1px solid #09427D;
+            font-size: 10px;
+        }
+
+        .column1 {
+            flex: 1;
+            padding: 10px 40px;
+            background-color: #F3F9FF;
+            border-top: 1px solid #09427D;
+            border-bottom: 1px solid #09427D;
+        }
+
+        .icon {
+            width: 50px;
+            height: 50px;
+            background-color: #09427D;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 25px;
+        }
+
+        .view-more-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #FFC838;
+            color: #FFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            justify-content: center;
+        }
+
+        .view-more-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        /* Custom Slick Slider Arrows */
+        .slick-prev,
+        .slick-next {
+            font-size: 24px;
+            line-height: 1;
+            width: 0px;
+            height: 0px;
+            /*background-color: #09427D;*/
+            color: black;
+            border-radius: 80%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+            /*opacity: 0.8;*/
+            /*transition: opacity 0.2s ease-in-out;*/
+        }
+
+        .slick-prev:hover,
+        .slick-next:hover {
+            opacity: 1;
+        }
+
+        .slick-prev {
+            left: 0;
+        }
+
+        .slick-next {
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Add Slider Container -->
+    <div class="slider-container">
+        <div class="section">
+            <div class="logo">
+                <img src="http://confluencr.com/wp-content/uploads/2023/08/koski.png" alt="Your Logo" width="150px"
+                    height="50px">
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <h5>Total Views</h5>
+                    <div class="icon">
+                        <i class="fa fa-youtube-play"></i>
+                    </div>
+                    <br>
+                    <h5>679K+</h5>
+                </div>
+                <div class="column1">
+                    <h5>Total Reach</h5>
+                    <div class="icon">
+                        <i class="fa fa-thumbs-up"></i>
+                    </div>
+                    <br>
+                    <h5>554K+</h5>
+                </div>
+            </div>
+            <div class="view-more-container">
+                <a href="https://confluencr.com/koskii-case-study/">
+                    <button class="view-more-btn">View More</button>
+                </a>
+            </div>
+        </div>
+        <div class="section">
+            <div class="logo">
+                <img src="http://confluencr.com/wp-content/uploads/2023/04/Plush_logo__2_-removebg-preview.png"
+                    alt="Your Logo" width="100px" height="50px">
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <h5>Total Views</h5>
+                    <div class="icon">
+                        <i class="fa fa-youtube-play"></i>
+                    </div>
+                    <br>
+                    <h5>1.3M+</h5>
+                </div>
+                <div class="column1">
+                    <h5>Total Reach</h5>
+                    <div class="icon">
+                        <i class="fa fa-thumbs-up"></i>
+                    </div>
+                    <br>
+                    <h5>192K+</h5>
+                </div>
+            </div>
+            <div class="view-more-container">
+                <a href="https://confluencr.com/plush-case-study/">
+                    <button class="view-more-btn">View More</button>
+                </a>
+            </div>
+        </div>
+        <div class="section">
+            <div class="logo">
+                <img src="http://confluencr.com/wp-content/uploads/2023/04/purplle-1.svg" alt="Your Logo" width="100px"
+                    height="50px">
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <h5>Total Views</h5>
+                    <div class="icon">
+                        <i class="fa fa-youtube-play"></i>
+                    </div>
+                    <br>
+                    <h5>1.6M+</h5>
+                </div>
+                <div class="column1">
+                    <h5>Influencers</h5>
+                    <div class="icon">
+                        <i class="fas fa-user-check"></i>
+                    </div>
+                    <br>
+                    <h5>27</h5>
+                </div>
+            </div>
+            <div class="view-more-container">
+                <a href="https://confluencr.com/purplle-case-study/">
+                    <button class="view-more-btn">View More</button>
+                </a>
+            </div>
+        </div>
+        <!-- next section 1 -->
+        <div class="section">
+            <div class="logo">
+                <img src="https://confluencr.com/wp-content/uploads/2023/04/HyugaLife-Logo-Transparent-BG.png" alt="Your Logo"
+                    width="100px" height="50px">
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <h5>Total Views</h5>
+                    <div class="icon">
+                        <i class="fa fa-youtube-play"></i>
+                    </div>
+                    <br>
+                    <h5>119K+</h5>
+                </div>
+                <div class="column1">
+                    <h5>Total Reach</h5>
+                    <div class="icon">
+                        <i class="fa fa-thumbs-up"></i>
+                    </div>
+                    <br>
+                    <h5>315+</h5>
+                </div>
+            </div>
+            <div class="view-more-container">
+                <a href="https://confluencr.com/hyugalife-health-and-wellbeing/">
+                    <button class="view-more-btn">View More</button>
+                </a>
+            </div>
+        </div>
+        <div class="section">
+            <div class="logo">
+                <img src="https://confluencr.com/wp-content/uploads/2023/04/logo_145x@2x.png" alt="Your Logo" width="200px"
+                    height="50px">
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <h5>Total Views</h5>
+                    <div class="icon">
+                        <i class="fa fa-youtube-play"></i>
+                    </div>
+                    <br>
+                    <h5>30M+</h5>
+                </div>
+                <div class="column1">
+                    <h5>Total Reach</h5>
+                    <div class="icon">
+                        <i class="fa fa-thumbs-up"></i>
+                    </div>
+                    <br>
+                    <h5>50M+</h5>
+                </div>
+            </div>
+            <div class="view-more-container">
+                <a href="https://confluencr.com/blue-island-case-study/">
+                    <button class="view-more-btn">View More</button>
+                </a>
+            </div>
+        </div>
+        <div class="section">
+            <div class="logo">
+                <img src="https://confluencr.com/wp-content/uploads/2023/05/logo-1.png" alt="Your Logo" width="100px"
+                    height="50px">
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <h5>Total Views</h5>
+                    <div class="icon">
+                        <i class="fa fa-youtube-play"></i>
+                    </div>
+                    <br>
+                    <h5>5M+</h5>
+                </div>
+                <div class="column1">
+                    <h5>Total Reach</h5>
+                    <div class="icon">
+                        <i class="fa fa-thumbs-up"></i>
+                    </div>
+                    <br>
+                    <h5>6M+</h5>
+                </div>
+            </div>
+            <div class="view-more-container">
+                <a href="https://confluencr.com/dabur-chyawanprash-case-study/">
+                    <button class="view-more-btn">View More</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Slick Slider JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.slider-container').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                prevArrow: '<button class="slick-prev" aria-label="Previous" type="button">&lt;</button>',
+                nextArrow: '<button class="slick-next" aria-label="Next" type="button">&gt;</button>',
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 2,
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+</body>
+
+</html>
